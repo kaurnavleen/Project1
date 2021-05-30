@@ -12,6 +12,7 @@ public class Reverse {
         }
     }
 
+// this is a function to reverse the array without creating a new array . The changes aree made to the same array
     private int[] reverseArray(int[] arr) {
         for(int i =0 ; i< arr.length/2 ;i++){
             int c = arr[arr.length -(i+1)];
